@@ -1,0 +1,96 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mt-25{
+  margin-top: 25px;
+}
+
+.mb-25{
+  margin-bottom: 25px;
+}
+
+.img-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience{
+  position: absolute;
+  left: calc(50% - 120px);;
+  top: calc(15% - 120px);
+  width: 905px;
+  height: 900px;
+  z-index: 2;
+}
+
+.experience-canvas{
+  width: 80%;
+  height: 100%;
+}
+
+.experience-canvas:hover{
+  cursor: pointer;
+}
+
+.logo{
+  display: grid;
+  align-items: center;
+  width:3%;
+  height:3%;
+  color: hsl(var(--bg-color-reverse));
+}
+
+.logoFooter{
+  display: grid;
+  align-items: center;
+  width:3%;
+  height:3%;
+  color: hsl(var(--bg-color-reverse));
+}
+
+.myCanvas{
+  position: absolute;
+  width: 500px!important;
+  height: 500px!important;
+  left: calc(28% - 120px);
+}
+
+.myCanvas:hover{
+  cursor: pointer;
+}
+
+@media (max-width:991px){
+  .experience{
+    left: calc(25% - 120px);
+    top: calc(70% - 400px);
+    width: 505px;
+    height: 500px;
+    z-index: 1;
+  }
+}
+
+@media (max-width:914px){
+  .myCanvas{
+    width: 300px !important;
+    height: 300px !important;
+    left: calc(40% - 120px);
+    top: calc(100% - 350px);
+  }
+}
+
+@media (max-width:914px){
+  .logo{
+    /* margin: 0 auto; */
+    width:10%;
+    height:10%;
+  }
+  .logoFooter{
+    margin: 0 auto;
+    width:9%;
+    height:9%;
+  }
+}

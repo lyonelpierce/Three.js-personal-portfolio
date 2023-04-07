@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nafie develops the best quality website that serves for the long-term. Well-documented, clean, easy and elegant interface helps any non-technical clients.">
+  <meta name="keywords" content="portfolio, agency, business, clean, company, corporate, creative, gallery, rtl, modern, photography, responsive, sass">
+
+  <!-- title of the browser tab -->
+  <title>Lyonel Pierce | Graphic Designer, Web Designer, Web Developer</title>
+
+  <!-- favicon -->
+  <link rel="icon" href="assets/favicon.svg" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="assets/favicon-dark-mode.svg" media="(prefers-color-scheme: dark)">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&family=Saira+Stencil+One&text=Nafie&display=swap">
+
+  <!-- css libraries file -->
+  <link rel="stylesheet" href="styles/libraries.min.css">
+
+  <!-- main style file -->
+  <link rel="stylesheet" href="styles/main.css">
+
+  <script type="module" src="/main.js"></script>
+</head>
+
+<body>
+
+  <div id="app-inner">
+
+    <!-- start circle cursor -->
+    <div class="circle-cursor circle-cursor-outer"></div>
+    <div class="circle-cursor circle-cursor-inner"></div>
+    <!-- end circle cursor -->
+
+    <!-- start preloader -->
+    <div class="preloader">
+      <div class="preloader__content">
+
+        <!-- brand logo -->
+        <div class="preloader__logo">
+          <img class="preloader__logo__img" src="assets/images/preloader-logo.svg" alt="LP" loading="lazy">
+        </div>
+
+        <!-- loading bar -->
+        <div class="preloader__loadingBar">
+          <span class="preloader__loadingProgress"></span>
+        </div>
+      </div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- start of header -->
+    <header class="header hide-in-preloading">
+      <div class="container">
+
+        <!-- brand logo -->
+        <div class="logo">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+          <style type="text/css">
+            .st0{display:none;enable-background:new    ;}
+            .st1{font-family:'AgencyFB-Reg';}
+            .st2{font-size:439.6127px;}
+            .st3{display:none;}
+            .st4{display:inline;}
+            .st5{fill:currentColor;}
+          </style>
+          <a href="/">
+            <text transform="matrix(1.1374 0 0 1 422.918 645.7656)" class="st0 st1 st2">P</text>
+            <g class="st3">
+              <path class="st4" d="M621.6,564.4l-107,182L277.8,336.2l77.7-0.3l159.6,277.6l66.2-101.7L621.6,564.4z"/>
+            </g>
+            <g class="st3">
+              <path class="st4" d="M618.4,563.1l-26.5,52.3L423.3,336l63.7-0.2l91,174.7l36.3,60.6L618.4,563.1z"/>
+            </g>
+            <polygon class="st3" points="663.4,490.2 570.5,493.3 622.9,563.6 586.1,625.1 412.1,336 754.3,336 "/>
+            <polygon class="st5" points="499.8,961.9 0.4,100.7 162.5,100.7 579.4,824.1 "/>
+            <polygon class="st5" points="643.5,712.8 292.2,100.7 455.2,100.7 723.1,574.9 "/>
+            <polygon class="st5" points="291.6,100 997.3,99 916.4,240.5 371.8,237.5 "/>
+            <polygon class="st5" points="1000,99 791.1,456.9 709.7,315.7 840.8,99 "/>
+            <polygon class="st5" points="791.2,456.9 601.7,459.2 551.3,315.7 755.4,315.7 "/>
+            <polygon class="st5" points="548.1,878.6 723.1,574.9 603.5,503.2 427.1,808.7 "/>
+          </a>
+          </svg>
+        </div>
+
+        <!-- navbar -->
+        <nav class="navbar">
+
+          <!-- navbar links -->
+          <ul class="navbar__links">
+            <li class="navbar__links__item">
+              <a class="navbar__links__link" href="index.html#hero" onclick="window._offCanvasMenuClose(this)">Home</a>
+            </li>
+            <li class="navbar__links__item">
+              <a class="navbar__links__link" href="index.html#about" onclick="window._offCanvasMenuClose(this)">About</a>
+            </li>
+            <li class="navbar__links__item">
+              <a class="navbar__links__link" href="index.html#skills" onclick="window._offCanvasMenuClose(this)">Skills</a>
+            </li>
+            <li class="navbar__links__item">
+              <a class="navbar__links__link" href="index.html#portfolio" onclick="window._offCanvasMenuClose(this)">Portfolio</a>
+            </li>
+            <li class="navbar__links__item">
+              <a class="navbar__links__link" href="index.html#contact" onclick="window._offCanvasMenuClose(this)">Contact</a>
+            </li>
+          </ul>
+
+          <!-- menu content in big devices (hidden in mobile/tablet) -->
+          <div class="offCanvasMenu" tabindex="-1">
+            <div class="container">
+
+              <!-- about me -->
+              <div class="offCanvasMenu__about">
+                <p class="block-subTitle">I love making things simple, intuitive and expertly crafted!</p>
+                <h4 class="block-title">Product is the vital essence of what i do, truly great product is born of meticulous planning and process. This is where i specialized!</h4>
+              </div>
+
+              <!-- contact info -->
+              <ul class="offCanvasMenu__contact">
+                <li class="offCanvasMenu__contact__block">
+                  <h4 class="block-title">Email</h4>
+                  <ul>
+                    <li><a href="mailto:lyonel@live.com">lyonel@live.com</a></li>
+                    <li><a href="mailto:contact@lyonelpierce.com">contact@lyonelpierce.com</a></li>
+                  </ul>
+                </li>
+                <li class="offCanvasMenu__contact__block">
+                  <h4 class="block-title">Location</h4>
+                  <ul>
+                    <li>
+                      Bronx, New York
+                    </li>
+                  </ul>
+                </li>
+                <li class="offCanvasMenu__contact__block">
+                  <h4 class="block-title">Phone</h4>
+                  <ul>
+                    <li><a href="tel:02966202290">(929) 374-6098</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- actions icons -->
+        <ul class="header__actionsIcons">
+
+          <!-- mode switcher button -->
+          <li class="header__actionsIcons__item modeSwitcher">
+            <button class="modeSwitcherBtn" title="Change Mode" onclick="window._toggleAppMode(this)"></button>
+          </li>
+
+          <!-- off-canvas menu toggler -->
+          <li class="header__actionsIcons__item offCanvasMenuToggler">
+            <button class="hamburgerBtn" title="Toggle Side Menu" onclick="window._offCanvasMenuToggle(this)">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- start of hero section -->
+    <div id="hero" class="hero-section hide-in-preloading" data-pan-effect>
+      <div class="section-content">
+        <div class="container">
+
+          <!-- hero image -->
+          <div class="hero__imgWrapper">
+            <div class="container hero__imgLayer">
+              <!-- <img class="hero__imgLayer__img" src="https://via.placeholder.com/600x800"  alt="User Name" loading="lazy"> -->
+            </div>
+            <div class="container hero__imgLayer">
+              <!-- <img class="hero__imgLayer__img" src="assets/images/600x800.png"  alt="User Name" loading="lazy"> -->
+            </div>
+            <div class="experience">
+              <canvas class="experience-canvas"></canvas>
+            </div>
+          </div>
+
+          <!-- hero text -->
+          <div class="hero__text">
+            <h2 class="hero__text__title">
+              Lyonel Pierce
+            </h2>
+            <p class="subtitle">Graphic Designer | Web Designer | Web Developer</p>
+            <!-- <textarea id="prompt"></textarea>
+            <button id="ai-generator">Send Request</button>
+            <br> -->
+            <a href="#contact" class="hero__text__btn w-btn w-btn--s2 w-btn--outline-light">Get In Touch</a>
+          </div>
+
+          <!-- social icons -->
+          <div class="hero__social">
+            <ul class="hero__social__list">
+              <li class="hero__social__item">
+                <a href="https://www.behance.net/lyonel9cc0" target="_blank" rel="noreferrer" data-tooltip='{ "text": "Behance", "dir": "right" }'>
+                  <i class="fa-brands fa-behance"></i>
+                </a>
+              </li>
+              <li class="hero__social__item">
+                <a href="https://github.com/lyonelpierce" target="_blank" rel="noreferrer" data-tooltip='{ "text": "GitHub", "dir": "right" }'>
+                  <i class="fa-brands fa-github-alt"></i>
+                </a>
+              </li>
+              <li class="hero__social__item">
+                <a href="https://www.linkedin.com/in/lyonel-pierce-077531205/" target="_blank" rel="noreferrer" data-tooltip='{ "text": "LinkedIn", "dir": "right" }'>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- scroll down button -->
+          <div class="hero__scrollDown">
+            <a href="#about" title="Scroll Down">Scroll</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of hero section -->
+
+    <!-- start of statistics section -->
+    <div id="stats" class="stats-section section hide-in-preloading">
+      <div class="section-content">
+        <div class="container">
+          <ul class="stats__items">
+            <li class="stats__item">
+              <a class="stats__link" href="#experience">
+
+                <!-- statistics icon -->
+                <div class="stats__iconWrapper">
+                  <svg class="stats__iconWrapper__icon" width="40" height="40">
+                    <use href="#emblem" />
+                  </svg>
+                </div>
+
+                <!-- statistics text -->
+                <div class="stats__text">
+                  <h3 class="stats__text__num">5+</h3>
+                  <strong class="stats__text__title">Years of Experience</strong>
+                </div>
+
+                <i class="stats__arrow fa-solid fa-angle-right"></i>
+              </a>
+            </li>
+            <li class="stats__item">
+              <a class="stats__link" href="#portfolio">
+
+                <!-- statistics icon -->
+                <div class="stats__iconWrapper">
+                  <svg class="stats__iconWrapper__icon" width="40" height="40">
+                    <use href="#check-mark" />
+                  </svg>
+                </div>
+
+                <!-- statistics text -->
+                <div class="stats__text">
+                  <h3 class="stats__text__num">30+</h3>
+                  <strong class="stats__text__title">Completed Projects</strong>
+                </div>
+
+                <i class="stats__arrow fa-solid fa-angle-right"></i>
+              </a>
+            </li>
+            <li class="stats__item">
+              <a class="stats__link" href="#testimonials">
+
+                <!-- statistics icon -->
+                <div class="stats__iconWrapper">
+                  <svg class="stats__iconWrapper__icon" width="40" height="40">
+                    <use href="#rating" />
+                  </svg>
+                </div>
+
+                <!-- statistics text -->
+                <div class="stats__text">
+                  <h3 class="stats__text__num">15+</h3>
+                  <strong class="stats__text__title">Happy Clients</strong>
+                </div>
+
+                <i class="stats__arrow fa-solid fa-angle-right"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- end of statistics section -->
+
+    <!-- start of about section -->
+    <div id="about" class="about-section section hide-in-preloading" tabindex="-1">
+      <div class="container">
+        <div class="section-content">
+
+          <!-- about image -->
+          <div class="about__imgWrapper">
+            <div class="about__imgLayer">
+              <!-- <img class="about__imgLayer__img" src="https://via.placeholder.com/330x500"  alt="User Name" loading="lazy"> -->
+            </div>
+            <div class="about__imgLayer">
+              <!-- <img class="about__imgLayer__img" src="https://via.placeholder.com/330x500"  alt="User Name" loading="lazy"> -->
+              <canvas class="myCanvas" id="myCanvas"></canvas>
+
+            </div>
+          </div>
+
+          <!-- about text -->
+          <div class="about__text">
+            <div class="text-box-inline">
+              <span class="subtitle">about me</span>
+              <h2>
+                Need a Creative Product?
+                <br>
+                I can Help You!
+              </h2>
+              <p>Hi! I’m Lyonel Pierce, and I’m a Graphic Designer, Web Designer and Web Developer who has passion for building creative designs and web pages with intuitive functionality. I enjoy the process of coding, and turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.</p>
+              <div class="btns-container">
+                <a href="#contact" class="w-btn w-btn--s1 w-btn--primary">Hire Me</a>
+                <a download href="assets/RESUME.pdf" class="w-btn w-btn--s1 w-btn--outline-dark">Download CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of about section -->
+
+    <!-- start of skills section -->
+    <div id="skills" class="skills-section section hide-in-preloading" tabindex="-1">
+      <div class="container">
+        <div class="section-content">
+
+          <!-- skills text -->
+          <div class="skills__text">
+            <div class="text-box-inline">
+              <span class="subtitle">my skills</span>
+              <h2>
+                What Do My
+                <br>
+                Skills Include?
+              </h2>
+              <p>I specialize in creating designs that are both aesthetically pleasing and easy to understand, using a variety of design techniques and softwares.</p>
+
+              <!-- switcher button -->
+              <div class="skills__text__switcher toggle-switch-btn">
+                <input id="skills-list" type="radio" name="items_type" value="skills" checked>
+                <label for="skills-list" class="link-hover">Skills</label>
+
+                <input id="tools-list" type="radio" name="items_type" value="tools">
+                <label for="tools-list" class="link-hover">Tools</label>
+
+                <span class="switcher-toggle" style="width: calc((100% - 0.5rem) / 2);"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- skills items -->
+          <div class="skills__wrapper">
+
+            <!-- skills list -->
+            <ul class="skills__items" data-stagger-delay="50" data-type="skills">
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "HTML5", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/html5.svg"  alt="HTML5" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "CSS3", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/css3.svg"  alt="CSS3" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "JavaScript", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/js.svg" width="40px" height="40px" alt="JavaScript" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Vue", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/vue.svg" alt="Vue" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Python", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/python.svg" width="40px" height="40px" alt="Python" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Php", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/php.svg" width="42px" height="42px" alt="Php" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "jQuery", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/jquery.svg" width="40px" height="40px" alt="jQuery" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Vite", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/vite.svg" width="40px" height="40px" alt="Vite" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "React", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/react.svg"  alt="React" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Three.js", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/threejs.svg"  alt="Three.js" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Django", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/django.svg"  alt="Django" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Laravel", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/laravel.svg" width="38px" height="38px" alt="Laravel" loading="lazy">
+                </div>
+              </li>
+            </ul>
+
+            <!-- tools list -->
+            <ul class="skills__items" data-stagger-delay="50" data-type="tools" style="display: none;">
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Photoshop", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/ps.svg" width="45px" height="45px" alt="Photoshop" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Illustrator", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/ai.svg"  alt="Illustrator" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "InDesign", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/id.svg" width="42px" height="42px" alt="InDesign" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Lightroom", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/lr.svg"  alt="Lightroom" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Premiere Pro", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/pr.svg"  alt="Premiere Pro" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "After Effects", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/ae.svg" width="47px" height="47px" alt="After Effects" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Blender", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/blender.svg" width="40px" height="40px" alt="Blender" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "XAMPP", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/xampp.svg" width="40px" height="40px" alt="XAMPP" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "VS Code", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/vsc.svg" width="40px" height="40px" alt="VS Code" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Office Suite", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/office.svg" width="38px" height="38px" alt="Office Suite" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Wordpress", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/wordpress.svg" width="36px" height="36px" alt="Wordpress" loading="lazy">
+                </div>
+              </li>
+              <li class="skills__item" tabindex="0" data-tooltip='{ "text": "Npm", "dir": "top" }'>
+                <div class="skills__item__icon">
+                  <img class="skills__item__img" src="assets/images/skills/npm.svg" width="40px" height="40px" alt="Npm" loading="lazy">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of skills section -->
+
+    <!-- start of experience section -->
+    <div id="experience" class="experience-section section hide-in-preloading" tabindex="-1">
+      <div class="container">
+        <div class="section-content">
+
+          <!-- experience timeline -->
+          <div class="experience__timeline">
+            <div class="experience__timePath"></div>
+
+            <!-- experience items -->
+            <ul class="experience__timeline__items">
+              <li class="experience__timeline__item has-ultimate-tooltip" tabindex="0">
+                <h3>2019</h3>
+                <div class="ultimate-tooltip">
+                  <h4 class="ultimate-tooltip-title">Freelancer.</h4>
+                  <h5 class="ultimate-tooltip-subtitle">Web Developer</h5>
+                  <p>Develop portfolio websites using Wordpress and Elementor</p>
+                </div>
+                <div class="ultimate-tooltip-arrow"></div>
+              </li>
+              <li class="experience__timeline__item has-ultimate-tooltip" tabindex="0">
+                <h3>2020</h3>
+                <div class="ultimate-tooltip">
+                  <h4 class="ultimate-tooltip-title">Condor Marketplace.</h4>
+                  <h5 class="ultimate-tooltip-subtitle">Graphic & Web Designer</h5>
+                  <p>Collaborate with creative and development teams on the build of a Marketplace Website.</p>
+                </div>
+                <div class="ultimate-tooltip-arrow"></div>
+              </li>
+              <li class="experience__timeline__item has-ultimate-tooltip" tabindex="0">
+                <h3>2021</h3>
+                <div class="ultimate-tooltip">
+                  <h4 class="ultimate-tooltip-title">Perfect Destiny.</h4>
+                  <h5 class="ultimate-tooltip-subtitle">Web Developer & Graphic Designer</h5>
+                  <p>Develop and design a branding image and a tours website.</p>
+                </div>
+                <div class="ultimate-tooltip-arrow"></div>
+              </li>
+              <li class="experience__timeline__item has-ultimate-tooltip" tabindex="0">
+                <h3>2022</h3>
+                <div class="ultimate-tooltip">
+                  <h4 class="ultimate-tooltip-title">Clark Jewelry.</h4>
+                  <h5 class="ultimate-tooltip-subtitle">Graphic Designer</h5>
+                  <p>Branding and Social Network Content Creator.</p>
+                </div>
+                <div class="ultimate-tooltip-arrow"></div>
+              </li>
+              <li class="experience__timeline__item has-ultimate-tooltip" tabindex="0">
+                <h3>2023</h3>
+                <div class="ultimate-tooltip">
+                  <h4 class="ultimate-tooltip-title">Clark Jewelry.</h4>
+                  <h5 class="ultimate-tooltip-subtitle">Graphic Designer</h5>
+                  <p>Branding and Social Network Content Creator.</p>
+                </div>
+                <div class="ultimate-tooltip-arrow"></div>
+              </li>
+              <li class="experience__timeline__item has-ultimate-tooltip" tabindex="0"></li>
+              <li class="experience__timeline__item has-ultimate-tooltip" tabindex="0"></li>
+              <li class="experience__timeline__item has-ultimate-tooltip" tabindex="0"></li>
+              <li class="experience__timeline__item has-ultimate-tooltip" tabindex="0"></li>
+            </ul>
+          </div>
+
+          <!-- experience text -->
+          <div class="experience__text">
+            <div class="text-box-inline">
+              <span class="subtitle">experience</span>
+              <h2>
+                5+ Years of Experience
+              </h2>
+              <p>I have been designing graphics and websites, for 5 years and I know for sure the main trends and directions of modern design, I have been a visionary and a reliable designer partner for world-class brands.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of experience section -->
+
+    <!-- start of portfolio section -->
+    <div id="portfolio" class="portfolio-section section hide-in-preloading" tabindex="-1">
+      <div class="container">
+        <div class="section-content">
+
+          <!-- portfolio items -->
+          <ul class="portfolio__items has-works">
+
+            <!-- portfolio text -->
+            <li class="portfolio__text">
+              <div class="text-box-inline">
+                <span class="subtitle">my works</span>
+                <h2>
+                  See My Works Which
+                  <br>
+                  Will Amaze You!
+                </h2>
+                <p>As a graphic designer and web designer, I take pride in crafting visually stunning and meaningful designs that leave a lasting impact on my clients audiences. </p>
+
+                <!-- projects filter -->
+                <ul class="portfolio__filters">
+                  <li class="portfolio__filters__item">
+                    <button class="portfolio__filters__btn active" onclick="window._filterPortfolioItems(this)">All</button>
+                  </li>
+                  <li class="portfolio__filters__item">
+                    <button class="portfolio__filters__btn" onclick="window._filterPortfolioItems(this)">Graphic</button>
+                  </li>
+                  <li class="portfolio__filters__item">
+                    <button class="portfolio__filters__btn" onclick="window._filterPortfolioItems(this)">Web</button>
+                  </li>
+                  <li class="portfolio__filters__item">
+                    <button class="portfolio__filters__btn" onclick="window._filterPortfolioItems(this)">Photography</button>
+                  </li>
+                  <li class="portfolio__filters__item">
+                    <button class="portfolio__filters__btn" onclick="window._filterPortfolioItems(this)">Illustration</button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <!-- start items list -->
+
+            <li class="portfolio__item" data-filter="web">
+
+              <!-- Personal Porfolio LightBox -->
+              <div class="glightboxdisplay" id="threejs-portfolio">
+              <div class="g-row">
+                <div class="g-column">
+                  <img class="g-img" src="assets/images/portfolio/1.gif" loading="lazy"/>
+                </div>
+                <div class="g-column1">
+                  <h2>Personal Portfolio</h2>
+                  <p>
+                    Web design and development of a responsive personal porfolio using Three.js as the main techonology. Three.js allows to load and
+                    interact with interactive 3D models, 3D animations, and other visually engaging features.
+                  </p>
+                  <p>
+                    The 3D files in the hero section and about section were created using blender and exported as .gltf files compressed with
+                    DRACO to improve perfomance of the website. The camera and lights were added with Three.js which also allow us to change the
+                    position of the camera and intensity of the lights. Animations were done in blender, and rendered with Three.js. 
+                  </p>
+                  <!-- <a href="https://perfectdestiny.ec" class="portfolio__livePreview w-btn w-btn--s2 w-btn--dark">Live Preview</a> -->
+                  <ul class="portfolio__tools">
+                    <li class="portfolio__tools__item">
+                      <a class="portfolio__tools__link">HTML</a>
+                    </li>
+                    <li class="portfolio__tools__item">
+                      <a class="portfolio__tools__link">CSS</a>
+                    </li>
+                    <li class="portfolio__tools__item">
+                      <a class="portfolio__tools__link">Javascript</a>
+                    </li>
+                    <li class="portfolio__tools__item">
+                      <a class="portfolio__tools__link">PHP</a>
+                    </li>
+                    <li class="portfolio__tools__item">
+                      <a class="portfolio__tools__link">Vite</a>
+                    </li>
+                    <li class="portfolio__tools__item">
+                      <a class="portfolio__tools__link">Three.js</a>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+              <div class="g-row">
+                <p>
+                  Both 3D models are interactive, the first model is animated in blender and is interactive when the user click and drag the
+                  mouse or pointer over it. The second 3D model is animated using Three.js and GSAP, this one is also interactive by click and
+                  drag, but the head and eyes of the character will follow the mouse position. Both models use the same textures to improve 
+                  website perfomance. Contact form was created with PHP.
+                </p>
+                <div class="g-column2">
+                  <img class="g-img" src="assets/images/single-portfolio/personal-portfolio/hero.gif" loading="lazy"/>
+                </div>
+                <div class="g-column2">
+                  <img class="g-img" src="assets/images/single-portfolio/personal-portfolio/about.gif" loading="lazy"/>
+                </div>
+              </div>
+              </div>
+              <a class="portfolio__link glightbox" href="#threejs-portfolio">
+
+                <!-- item image -->
+                <div class="portfolio__imgWrapper">
+                  <img class="portfolio__imgWrapper__img" src="assets/images/portfolio/1.gif" alt="Three.js Personal Porfolio" loading="lazy">
+                </div>
+
+                <!-- item details -->
+                <div class="portfolio__details">
+                  <h3 class="portfolio__details__title">Three.js Personal Porfolio</h3>
+                  <div class="portfolio__details__date">March 2023</div>
+                </div>
+              </a>
+            </li>
+            
+            <li class="portfolio__item" data-filter="graphic">
+
+              <!-- SweetSolar LightBox -->
+              <div class="glightboxdisplay" id="sweet-solar">
+                <div class="g-row">
+                  <div class="g-column">
+                    <img class="g-img" src="assets/images/single-portfolio/sweet-solar/sweet-solar-logo.jpg" loading="lazy"/>
+                  </div>
+                  <div class="g-column1">
+                    <h2>Sweet Solar</h2>
+                    <p>
+                      Sweet Solar is a brand of fancy, delicious, and organic chocolate bars.
+                    </p>
+                    <h3>Logo</h3>
+                    <p>
+                      To visually convey the essence of this brand, I've chosen a color palette that is warm, bright, and inviting - 
+                      with yellow, orange, and pink as primary colors that are often associated with sunshine, warmth, 
+                      and hapiness, and sweetness. Together this colors create a palette that is not only visually 
+                      appealing, but also evokes a sense of joy and positivity.
+                    </p>
+                    <p>
+                      As for the pictorial elements, a sun, with sunbeams in the sape of the letter "S" - representing the Sweet Solar brand.
+                      The sun represents warm, light, and energy - qualities that align perfectly with the organic and natural ingredients of 
+                      the chocolate. The "S" shape of the sunbeams not only reinforces the brand name, but also adds a playful touch to the 
+                      overall design.
+                    </p>
+                  </div>
+                </div>
+                <div class="g-row">
+                  <h3>Packaging</h3>
+                  <p>
+                    To mantain a consistent brand identity across all the packaging, the same pattern design is used for each flavor. 
+                    To differentiate between the different flavors, I've used the main element on the packaging to match witheach flavor.
+                    In addition, I've varied the colors used for each packaging to create a distinctive look between the flavors.
+                  </p>
+                  <div class="g-column3">
+                    <img class="g-img" src="assets/images/single-portfolio/sweet-solar/sweetsolar-01.jpg" loading="lazy"/>
+                  </div>
+                  <div class="g-column3">
+                    <img class="g-img" src="assets/images/single-portfolio/sweet-solar/sweetsolar-03.jpg" loading="lazy"/>
+                  </div>
+                  <div class="g-column3">
+                    <img class="g-img" src="assets/images/single-portfolio/sweet-solar/sweetsolar-02.jpg" loading="lazy"/>
+                  </div>
+                  <h3>Digital Ad Campaign</h3>
+                  <p>
+                    The Digital Ad campign is based on headlines that evoke a sense of indulgence, pleasure, and pure bliss, this headlines
+                    communicate the idea that consuming the chocolate bar is a transcendent experience. 
+                  </p>
+                  <p>
+                    To visually convey this concept, the chocolate was placed in and idyllic and dream-like setting. For example, at the end
+                    of two rainbows, as the goail in an starway to heaven, and in a beach that represents relaxation, enjoyment and paradise.
+                  </p>
+                  <div class="g-column3">
+                    <img class="g-img" src="assets/images/portfolio/sweetsolarad.jpg" loading="lazy"/>
+                  </div>
+                  <div class="g-column3">
+                    <img class="g-img" src="assets/images/single-portfolio/sweet-solar/sweetsolarad2.jpg" loading="lazy"/>
+                  </div>
+                  <div class="g-column3">
+                    <img class="g-img" src="assets/images/single-portfolio/sweet-solar/sweetsolarad1.jpg" loading="lazy"/>
+                  </div>
+                </div>
+              </div>
+
+              <a class="portfolio__link glightbox" href="#sweet-solar">
+
+                <!-- item image -->
+                <div class="portfolio__imgWrapper">
+                  <img class="portfolio__imgWrapper__img" src="assets/images/portfolio/sweetsolarad.jpg" alt="Sweet Solar" loading="lazy">
+                </div>
+
+                <!-- item details -->
+                <div class="portfolio__details">
+                  <h3 class="portfolio__details__title">Sweet Solar</h3>
+                  <div class="portfolio__details__date">March 2023</div>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio__item" data-filter="graphic">
+            <!-- Tokyo Nights LightBox -->
+            <div class="glightboxdisplay" id="tokyo-nights">
+              <div class="g-row">
+                <div class="g-column">
+                  <img class="g-img" src="assets/images/single-portfolio/tokyo-nights/TokyoNights.jpg" loading="lazy"/>
+                </div>
+                <div class="g-column1">
+                  <h2>Tokyo Nights</h2>
+                  <p>
+                    Tokyo Nights is a Rave that takes place inside the Budokan Fest, the biggest anime and manga convention in Ecuador.
+                  </p>
+                  <h3>Logo</h3>
+                  <p>
+                    I chose to use neon colors and shapes such as stars, lightning bolts, and music notes to convey the energetic and vibrant 
+                    atmosphere of a rave. These shapes and colors are commonly associated with the rave culture and are used to create a sense of 
+                    excitement and anticipation.
+                  </p>
+                  <p>
+                    The use of geometric shapes such as triangles and circles adds a modern and edgy feel to the design while also emphasizing the 
+                    dynamic movement and rhythm of the music.
+                  </p>
+                  <p>
+                    Finally, the font is made with the use of outlines, to mantain consistency with the use of the shapes.
+                  </p>
+                </div>
+              </div>
+              <div class="g-row">
+                <div class="g-column1">
+                  <h3>Event Flyer / Instagram Post</h3>
+                  <p>
+                    Creating an event flyer for a rave can be challenging, especially when there are a lot of sponsor logos that need to be included
+                    in the design. It can be difficult to balance the sponsor logos with the overall aesthetic and message of the flyer, while also
+                    ensuring that the sponsors are given adequate recognition.
+                  </p>
+                  <p>
+                    To address this challenge, I incorporated the sponsor logos into the design in a way that seamlessly integrates them into the
+                    overall aesthetic. By using a combination of transparency and layering, the sponsor logos are placed in a way that complements
+                    the overall design and does not overpower it.
+                  </p>
+                  <p>
+                    The use of neon lights, colors, and shapes was also an important aspect of the design. These elements help to create a sense of
+                    excitement and energy that is associated with rave culture. The neon colors and shapes were strategically placed to draw attention
+                    to the key information such as the event name, date, and location.
+                  </p>
+                </div>
+                <div class="g-column">
+                  <img class="g-img" src="assets/images/single-portfolio/tokyo-nights/IG-Post-Tokyo-Nights-scaled.jpg" loading="lazy"/>
+                </div>
+              </div>
+            </div>
+              <a class="portfolio__link glightbox" href="#tokyo-nights">
+
+                <!-- item image -->
+                <div class="portfolio__imgWrapper">
+                  <img class="portfolio__imgWrapper__img" src="assets/images/portfolio/TokyoNights.jpg"  alt="Tokyo Nights" loading="lazy">
+                </div>
+
+                <!-- item details -->
+                <div class="portfolio__details">
+                  <h3 class="portfolio__details__title">Tokyo Nights</h3>
+                  <div class="portfolio__details__date">Aug 2022</div>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio__item" data-filter="graphic">
+            <!-- Personal Porfolio LightBox -->
+            <div class="glightboxdisplay" id="umai-food">
+              <div class="g-row">
+                <div class="g-column">
+                  <img class="g-img" src="assets/images/portfolio/umai.jpg" loading="lazy"/>
+                </div>
+                <div class="g-column1">
+                  <h2>Umai Food Experience</h2>
+                  <p>
+                    Umai Food Experience is a food festival inside Budokan Fest, the biggest anime and manga convention of Ecuador.
+                  </p>
+                  <p>
+                    This logo was quite a challenge, and required a lot of research. The client required a logo for a japanesse food festival with a
+                    hannya mask as pictorial element. The Hannya mask is a significant cultural symbol in Japan, and it is essential to be respectful of its
+                    cultural significance. Another issue that presented was that these masks are often in an angry expression, which is not very friendly at
+                    the moment of inviting people to the festival.
+                  </p>
+                  <p>
+                    Research was a very important step to address this challenges. My solution was to create a simplied and more friendly version of the Hannya
+                    mask and include other Japanesse elements such as traditional food (Takoyaki) and also text in Japanesse language. 
+                  </p>
+                </div>
+              </div>
+              <div class="g-row">
+                <p>
+                  Two logos were presented to the client, the one at the left was rejected because it was too serious for a food festival, and the one at the right
+                  that was accepted at first, but rejected at the end because the red stripes and white background created the flag of Imperialist Japan.
+                  At the end, the client required to remove the stripes from the background and was happy with the design.
+                </p>
+                <div class="g-column2">
+                  <img class="g-img" src="assets/images/single-portfolio/umai/umai.jpg" loading="lazy"/>
+                </div>
+                <div class="g-column2">
+                  <img class="g-img" src="assets/images/single-portfolio/umai/umai1.jpg" loading="lazy"/>
+                </div>
+              </div>
+              </div>
+              <a class="portfolio__link glightbox" href="#umai-food">
+
+                <!-- item image -->
+                <div class="portfolio__imgWrapper">
+                  <img class="portfolio__imgWrapper__img" src="assets/images/portfolio/umai.jpg" alt="Umai" loading="lazy">
+                </div>
+
+                <!-- item details -->
+                <div class="portfolio__details">
+                  <h3 class="portfolio__details__title">Umai</h3>
+                  <div class="portfolio__details__date">Aug 2022</div>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio__item" data-filter="photography">
+            <!-- Tokyo Nights LightBox -->
+            <div class="glightboxdisplay" id="trip">
+              <div class="g-row">
+                <h2 class="mb-25">Enjoying the trip</h2>
+                  <img class="g-img" src="assets/images/single-portfolio/photography/trip.jpg" loading="lazy"/>
+                  <div class="column1">
+                    <p class="mt-25">Sony a7r II - Rokinon 50mm f1.4, Guayaquil Ecuador</p>
+                    <p class="mt-25">Special Thanks to Samuel Noroña</p>
+
+                  </div>
+              </div>
+            </div>
+              <a class="portfolio__link glightbox" href="#trip">
+
+                <!-- item image -->
+                <div class="portfolio__imgWrapper">
+                  <img class="portfolio__imgWrapper__img" src="assets/images/single-portfolio/photography/trip.jpg" alt="Enjoying the trip" loading="lazy">
+                </div>
+
+                <!-- item details -->
+                <div class="portfolio__details">
+                  <h3 class="portfolio__details__title">Enjoying the trip</h3>
+                  <div class="portfolio__details__date">May 2022</div>
+                </div>
+              </a>
+            </li>
+            
+            <li class="portfolio__item" data-filter="web">
+              <!-- Personal Porfolio LightBox -->
+              <div class="glightboxdisplay" id="tattoec">
+                <div class="g-row">
+                  <div class="g-column">
+                    <img class="g-img" src="assets/images/single-portfolio/tattoo/tattooec.jpg" loading="lazy"/>
+                  </div>
+                  <div class="g-column1">
+                    <h2>Tattoo Ec</h2>
+                    <p>Tattoo Ec is an online marketplace based in Ecuador for artist and tattoo fans. The idea behind the website is that customers can post offers in the website,
+                      and the artists can accept or send their own price to clients.
+                    </p>
+                    <h3>Logo</h3>
+                    <p>
+                      The concept of the logo revolve around the idea of eternity, creativity, and individuality. The logo features an infinity symbol created with the two "oo"
+                      at the end of the word "tattoo" and represents the everlasting nature of tattoos. 
+                    </p>
+                    <a href="https://tattoo.ec" target="_blank" class="portfolio__livePreview w-btn w-btn--s2 w-btn--dark">Live Preview</a>
+                  </div>
+                </div>
+                <div class="g-row">
+                  <h3>Web Design / Development</h3>
+                  <p>
+                    The design of the website was built around the color yellow, to match with the logo and be friendly with the customers.
+                    The website was created using Wordpress, Hivepress, custom PHP plugins, and stripe as a payment method.
+                  </p>
+                  <div class="g-column2">
+                    <img class="g-img" src="assets/images/portfolio/tattooec.jpg" loading="lazy"/>
+                  </div>
+                  <div class="g-column2">
+                    <img class="g-img" src="assets/images/single-portfolio/tattoo/web1.jpg" loading="lazy"/>
+                  </div>
+                </div>
+              </div>
+                <a class="portfolio__link glightbox" href="#tattoec">
+  
+                  <!-- item image -->
+                  <div class="portfolio__imgWrapper">
+                    <img class="portfolio__imgWrapper__img" src="assets/images/portfolio/tattooec.jpg"  alt="Tatto EC" loading="lazy">
+                  </div>
+  
+                  <!-- item details -->
+                  <div class="portfolio__details">
+                    <h3 class="portfolio__details__title">Tatto EC</h3>
+                    <div class="portfolio__details__date">Sep 2022</div>
+                  </div>
+                </a>
+            </li>
+
+            <li class="portfolio__item" data-filter="graphic">
+              <!-- SweetSolar LightBox -->
+              <div class="glightboxdisplay" id="charity-campaing">
+                <div class="g-row">
+                  <div class="g-column">
+                    <img class="g-img" src="assets/images/portfolio/cc.jpg" loading="lazy"/>
+                  </div>
+                  <div class="g-column1">
+                    <h2>WCS Charity Campaign</h2>
+                    <p>
+                      WCS is a global non-profit organization that works to conserve wild animals and their habitats around the world.
+                      They operate in over 60 countries and run a variety of conservation programs.
+                    </p>
+                    <p>
+                      This idea behind the campign is to use typography to create the shape of endangered species. The shapes are created with
+                      phrases, that seek the viewer to protect the environment and donate money for the protection of endangered animals.
+                    </p>
+                  </div>
+                </div>
+                <div class="g-row">
+                  <p>
+                    A whale in the ocean, a vulture in the sky, and a red panda in the forest are the chosen endangered species depicted in
+                    their natural environment that also needs protection. 
+                  </p>
+                  <p>
+                    "Protect our future", "Protect our oceans", "Protect our wildlife", "Go green", "Help save our planet", "Stop deforestation",
+                    and many more are some of the phrases chosen for this campaign.
+                  </p>
+                  <div class="g-column3">
+                    <img class="g-img" src="assets/images/portfolio/1.jpg" loading="lazy"/>
+                  </div>
+                  <div class="g-column3">
+                    <img class="g-img" src="assets/images/single-portfolio/cc/2.jpg" loading="lazy"/>
+                  </div>
+                  <div class="g-column3">
+                    <img class="g-img" src="assets/images/single-portfolio/cc/3.jpg" loading="lazy"/>
+                  </div>
+                </div>
+              </div>
+              <a class="portfolio__link glightbox" href="#charity-campaing">
+
+                <!-- item image -->
+                <div class="portfolio__imgWrapper">
+                  <img class="portfolio__imgWrapper__img" src="assets/images/portfolio/1.jpg"  alt="Charity Campaign" loading="lazy">
+                </div>
+
+                <!-- item details -->
+                <div class="portfolio__details">
+                  <h3 class="portfolio__details__title">Charity Campaign</h3>
+                  <div class="portfolio__details__date">June 2022</div>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio__item" data-filter="illustration">
+              <!-- Rose LightBox -->
+              <div class="glightboxdisplay" id="rose">
+                <div class="g-row">
+                  <img class="g-img" src="assets/images/portfolio/Rose.jpeg" loading="lazy"/>
+                  <h2 class="mt-25">Rose</h2>
+                  <p>
+                    Rose is an illustration in honor of a very dear friend of mine whose name was Rosi. She was a person I met in the worst stage of my life
+                    and she knew how to relieve the depression I was going through at that time. She quickly became a very special person to me, she was
+                    always there when I needed her, regardless of the time or the weather. One day like any other, I received the news that Rosi was missing,
+                    that she had fallen into a river and they couldn’t find her. After 4 days her body was found in a nearby town. I didn’t dare to open her
+                    chat until after her funeral, and it was there when I noticed all the farewell messages and an audio that I had never heard in which she
+                    said that she couldn’t take her life anymore. One of my biggest regrets in my life is not knowing how to recognize your depression as you
+                    did with mine. I know you are in a better place because of the excellent person you were, I missed you and I wish you were here,
+                    but I want you to know that every day that passes I try to be a better person and that I always carry you with me in my heart.
+                  </p>
+                </div>
+              </div>
+              <a class="portfolio__link glightbox" href="#rose">
+
+                <!-- item image -->
+                <div class="portfolio__imgWrapper">
+                  <img class="portfolio__imgWrapper__img" src="assets/images/portfolio/Rose.jpeg"  alt="Rose" loading="lazy">
+                </div>
+
+                <!-- item details -->
+                <div class="portfolio__details">
+                  <h3 class="portfolio__details__title">Rose</h3>
+                  <div class="portfolio__details__date">Sep 2021</div>
+                </div>
+              </a>
+            </li>
+
+            <!-- end items list -->
+
+            <!-- load more button -->
+            <!-- <li class="portfolio__loadMore">
+              <button class="portfolio__loadMore__btn" data-no-works-msg="No works to load" onclick="window._loadMorePortfolioItems(this)">
+                Load more works
+              </button>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- end of portfolio section -->
+
+    <!-- start of testimonials section -->
+    <div id="testimonials" class="testimonials-section section hide-in-preloading" tabindex="-1">
+
+      <!-- testimonials title -->
+      <div class="container">
+        <div class="section-title">
+          <span class="subtitle">testimonials</span>
+          <h2 class="title">
+            Check What's My Clients
+            <br>
+            Say About Me
+          </h2>
+        </div>
+      </div>
+
+      <!-- testimonials items -->
+      <div class="section-content">
+        <ul class="testimonials__items" data-stagger-delay="500">
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/jf.jpg"  alt="Jonathan Falcones" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>Lyonel is an incredibly talented designer who understands the nuances of the web design industry and works quickly to create amazing designs.</p>
+                <h4 class="ultimate-tooltip-title">Jonathan Falcones</h4>
+                <h5 class="ultimate-tooltip-subtitle">Economist</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/pd.jpg"  alt="Jefferson Salvatierra" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>Excellent to work with. Lyonel helped me to build the website and the brand image for my business.</p>
+                <h4 class="ultimate-tooltip-title">Jefferson Salvatierra</h4>
+                <h5 class="ultimate-tooltip-subtitle">CEO, Perfect Destiny</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/mr.jpg"  alt="Marvin Rojas" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>Lyonel is very professional, always delivers high quality results, and is always there to help. Look forward to working with Lyonel in other projects.</p>
+                <h4 class="ultimate-tooltip-title">Marvin Rojas</h4>
+                <h5 class="ultimate-tooltip-subtitle">CEO, Xtreme</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/rm.jpg"  alt="Ronald Muñoz" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>He was able to make all my website dreams come true! Lyonel has a great eye for detail and his designs are always stunning. I would highly recommend him to anyone in need of a web designer!</p>
+                <h4 class="ultimate-tooltip-title">Ronald Muñoz</h4>
+                <h5 class="ultimate-tooltip-subtitle">Deployment & Integration Consultant</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/mp.jpg" alt="Michael Peña" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!</p>
+                <h4 class="ultimate-tooltip-title">Michael Peña</h4>
+                <h5 class="ultimate-tooltip-subtitle">Systems Engineer</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/pp.jpg" alt="Paola Pilla" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>Lyonel took the time to understand the unique needs of my business, and he worked tirelessly to create a logo that perfectly captured the essence of my brand.</p>
+                <h4 class="ultimate-tooltip-title">Paola Pilla</h4>
+                <h5 class="ultimate-tooltip-subtitle">Motion Graphic Animator</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/db.jpg" alt="Danilo Bravo" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>I urgently needed a designer to create two new brands for my event. The results exceeded my expectations.</p>
+                <h4 class="ultimate-tooltip-title">Danilo Bravo</h4>
+                <h5 class="ultimate-tooltip-subtitle">CEO, Budokan Fest</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/rg.jpg"  alt="Ricardo Garces" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!</p>
+                <h4 class="ultimate-tooltip-title">Ricardo Garces</h4>
+                <h5 class="ultimate-tooltip-subtitle">Sales Consultant</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/ml.jpg"  alt="Melissa Lozano" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>Lyonel worked on a handful of projects for us and has always exceeded our expectations. Lyonel is dedicated, talented and a delight to work with.</p>
+                <h4 class="ultimate-tooltip-title">Melissa Lozano</h4>
+                <h5 class="ultimate-tooltip-subtitle">Content Creator</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/ca.jpg" alt="Cristina Aranguren" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>I needed a quick logo, according to my painting style and the colors I like. I couldn't be happier with the result.</p>
+                <h4 class="ultimate-tooltip-title">Cristina Aranguren</h4>
+                <h5 class="ultimate-tooltip-subtitle">Painter, CrisArte</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/cja.jpg" alt="Christian Alvarado" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p> From the very beginning, Lyonel was a true professional, and his attention to detail was impressive. He took the time to listen to my vision for the logo, and his creative input was invaluable.</p>
+                <h4 class="ultimate-tooltip-title">Christian Alvarado</h4>
+                <h5 class="ultimate-tooltip-subtitle">Streamer</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">  
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/ep.jpg" alt="Erika Pino" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>Easy to communicate. Lyonel delivered my request before the deadline and has no problem making changes to his art.</p>
+                <h4 class="ultimate-tooltip-title">Erika Pino</h4>
+                <h5 class="ultimate-tooltip-subtitle">Entrepreneur</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/ka.jpg"  alt="Kevin Ayala" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>Working with Lyonel has been a pleasure! He is a great graphic designer and always strives to deliver the highest quality work.</p>
+                <h4 class="ultimate-tooltip-title">Kevin Ayala</h4>
+                <h5 class="ultimate-tooltip-subtitle">Structural Consultant</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/ap.jpg"  alt="Adelaida Paz" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>Lyonel is a fantastic graphic designer! He always puts extra effort into making sure the design looks amazing and on top of that, he's super responsive and great to work with.</p>
+                <h4 class="ultimate-tooltip-title">Adelaida Paz</h4>
+                <h5 class="ultimate-tooltip-subtitle">Real State Agent</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/lp.jpg"  alt="Duncan Kemmer" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>Very professional. Last minute photographer to my wedding, excellent pictures.</p>
+                <h4 class="ultimate-tooltip-title">Laura Paz</h4>
+                <h5 class="ultimate-tooltip-subtitle">Entrepreneur</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/gd.jpg"  alt="Giancarlo Drouet" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>Not only is he highly talented and knowledgeable, but he is also an incredibly hard worker and always finishes projects swiftly.</p>
+                <h4 class="ultimate-tooltip-title">Giancarlo Drouet</h4>
+                <h5 class="ultimate-tooltip-subtitle">Systems Engineer, Informatic Jobs</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/ja.jpeg" alt="Janio Alvarado" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>I was in need for a graphic designer and web developer for my personal project. Lyonel was very patient with me and successfully meet al my requirements.</p>
+                <h4 class="ultimate-tooltip-title">Janio Alvarado</h4>
+                <h5 class="ultimate-tooltip-subtitle">IT Specialist, Banco de la Nacion Argentina</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+          <li class="has-ultimate-tooltip" tabindex="0">
+            <div class="testimonials__item">
+              <div class="testimonials__item__avatar">
+                <img class="testimonials__item__img" src="assets/images/testimonials/vr.jpg" alt="Victor Robalino" loading="lazy">
+              </div>
+              <div class="ultimate-tooltip">
+                <p>I recently had the pleasure of working with Lyonel, a talented graphic designer, who created a fantastic logo for my new agricultural mobile app.</p>
+                <h4 class="ultimate-tooltip-title">Victor Robalino</h4>
+                <h5 class="ultimate-tooltip-subtitle">Systems Engineer</h5>
+              </div>
+              <div class="ultimate-tooltip-arrow"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- end of testimonials section -->
+
+    <!-- start of contact section -->
+    <div id="contact" class="contact-section section hide-in-preloading" tabindex="-1">
+      <div class="container">
+        <div class="section-content">
+
+          <!-- contact text -->
+          <div class="contact__text">
+            <div class="text-box-inline">
+              <span class="subtitle">contact</span>
+              <h2>
+                Have You Any Project?
+                <br>
+                Please Drop a Message
+              </h2>
+              <p>Get in touch and let me know how I can help. Fill out the form and I’ll be in touch as soon as possible.</p>
+            </div>
+
+            <!-- contact info -->
+            <ul class="contact__info">
+              <li class="contact__info__item">
+                <svg class="contact__info__item__icon" width="24" height="24">
+                  <use href="#location" />
+                </svg>
+                <div class="contact__info__item__text">
+                  <strong>Location:</strong>
+                  Bronx, New York
+                </div>
+              </li>
+              <li class="contact__info__item">
+                <svg class="contact__info__item__icon" width="24" height="24">
+                  <use href="#phone" />
+                </svg>
+                <div class="contact__info__item__text">
+                  <strong>Phone:</strong>
+                  <ul>
+                    <li><a href="tel:9293746098" class="ltr-dir">(929) 374-6098</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="contact__info__item">
+                <svg class="contact__info__item__icon" width="24" height="24">
+                  <use href="#envelope" />
+                </svg>
+                <div class="contact__info__item__text">
+                  <strong>Email:</strong>
+                  <ul>
+                    <li><a href="mailto:lyonel@live.com">lyonel@live.com</a></li>
+                    <li><a href="mailto:contact@lyonelpierce.com">contact@lyonelpierce.com</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+
+            <!-- social links -->
+            <ul class="contact__social">
+              <li class="contact__social__item">
+                <a class="contact__social__link" href="https://www.behance.net/lyonel9cc0" target="_blank" rel="noreferrer" data-tooltip='{ "text": "Behance", "dir": "top" }'>
+                  <i class="fa-brands fa-behance"></i>
+                </a>
+              </li>
+              <li class="contact__social__item">
+                <a class="contact__social__link" href="https://www.linkedin.com/in/lyonel-pierce-077531205/" target="_blank" rel="noreferrer" data-tooltip='{ "text": "LinkedIn", "dir": "top" }'>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="contact__social__item">
+                <a class="contact__social__link" href="https://github.com/lyonelpierce/" target="_blank" rel="noreferrer" data-tooltip='{ "text": "GitHub", "dir": "top" }'>
+                  <i class="fa-brands fa-github-alt"></i>
+                </a>
+              </li>
+              <!-- 
+              <li class="contact__social__item">
+                <a class="contact__social__link" href="#" target="_blank" rel="noreferrer" data-tooltip='{ "text": "YouTube", "dir": "top" }'>
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+
+          <!-- contact form -->
+          <div class="contact__formHolder">
+            <form class="contact__form form-styled" data-url="contact_form.php" data-success-msg="Message sent successfully!" data-err-msg="Oops! something went wrong, please try again.">
+
+              <!-- name control -->
+              <div class="group">
+                <label>Name</label>
+                <div class="control has-prefix-icon">
+                  <input type="text" name="name" placeholder="e.g. John Doe" minlength="3" required>
+                  <i class="fa-solid fa-circle-user prefix-icon"></i>
+
+                  <!-- validation errors messages -->
+                  <div class="errors-msgs">
+                    <input class="required" type="hidden" value="Name is required">
+                    <input class="minLength" type="hidden" value="Name must be at least 3 characters">
+                  </div>
+                </div>
+              </div>
+
+              <!-- email control -->
+              <div class="group">
+                <label>Email</label>
+                <div class="control has-prefix-icon">
+                  <input class="ltr-dir" type="email" inputmode="email" name="email" placeholder="e.g. john.doe@gmail.com" required>
+                  <i class="fa-solid fa-envelope prefix-icon"></i>
+
+                  <!-- validation errors messages -->
+                  <div class="errors-msgs">
+                    <input class="required" type="hidden" value="Email is required">
+                    <input class="invalid" type="hidden" value="Please enter a valid email address">
+                  </div>
+                </div>
+              </div>
+
+              <!-- phone control -->
+              <div class="group phone-number">
+                <label>Phone <span class="optional">(Optional)</span></label>
+                <div class="control has-prefix-icon">
+                  <input type="tel" inputmode="tel" name="phone" placeholder="Phone Number">
+                  <i class="fa-solid fa-phone prefix-icon"></i>
+
+                  <!-- validation errors messages -->
+                  <div class="errors-msgs">
+                    <input class="invalid" type="hidden" value="Please enter a valid Phone Number">
+                  </div>
+                </div>
+              </div>
+
+              <!-- message control -->
+              <div class="group">
+                <label>Message</label>
+                <div class="control has-prefix-icon">
+                  <textarea name="message" placeholder="Write message..." required></textarea>
+                  <i class="fa-solid fa-comments prefix-icon"></i>
+
+                  <!-- validation errors messages -->
+                  <div class="errors-msgs">
+                    <input class="required" type="hidden" value="Message is required">
+                  </div>
+                </div>
+              </div>
+
+              <!-- submit button -->
+              <div class="group">
+                <div class="control">
+                  <button class="submit-btn w-btn w-btn--s2 w-btn--dark" type="button" onclick="window._contactFormValidation(this)">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of contact section -->
+
+    <!-- start of footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+
+          <!-- brand logo -->
+          <div class="logoFooter">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+            <style type="text/css">
+              .st0{display:none;enable-background:new;}
+              .st1{font-family:'AgencyFB-Reg';}
+              .st2{font-size:439.6127px;}
+              .st3{display:none;}
+              .st4{display:inline;}
+              .st5{fill:currentColor;}
+            </style>
+            <a href="/">
+              <text transform="matrix(1.1374 0 0 1 422.918 645.7656)" class="st0 st1 st2">P</text>
+              <g class="st3">
+                <path class="st4" d="M621.6,564.4l-107,182L277.8,336.2l77.7-0.3l159.6,277.6l66.2-101.7L621.6,564.4z"/>
+              </g>
+              <g class="st3">
+                <path class="st4" d="M618.4,563.1l-26.5,52.3L423.3,336l63.7-0.2l91,174.7l36.3,60.6L618.4,563.1z"/>
+              </g>
+              <polygon class="st3" points="663.4,490.2 570.5,493.3 622.9,563.6 586.1,625.1 412.1,336 754.3,336 "/>
+              <polygon class="st5" points="499.8,961.9 0.4,100.7 162.5,100.7 579.4,824.1 "/>
+              <polygon class="st5" points="643.5,712.8 292.2,100.7 455.2,100.7 723.1,574.9 "/>
+              <polygon class="st5" points="291.6,100 997.3,99 916.4,240.5 371.8,237.5 "/>
+              <polygon class="st5" points="1000,99 791.1,456.9 709.7,315.7 840.8,99 "/>
+              <polygon class="st5" points="791.2,456.9 601.7,459.2 551.3,315.7 755.4,315.7 "/>
+              <polygon class="st5" points="548.1,878.6 723.1,574.9 603.5,503.2 427.1,808.7 "/>
+            </a>
+            </svg>
+          </div>
+
+          <!-- copyright -->
+          <div class="footer__copyright">
+            &copy; 2023 - Lyonel Pierce
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- scroll to top button -->
+    <button class="scroll-to-top" title="Back To Top" data-show-at="50" onclick="window._scrollToTop(this)">
+      <svg width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </button>
+
+    <!-- toast notifications -->
+    <ul class="notifications hide-in-preloading"></ul>
+
+    <!-- ajax loader -->
+    <div class="ajaxLoader hide-in-preloading">
+      <span class="ajaxLoader__blades"></span>
+    </div>
+
+    <!-- svg icons -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <!-- statistics items icons -->
+      <symbol id="emblem" viewBox="0 0 40 40">
+        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="m30.073 25.224-.062.01a5.29 5.29 0 0 0-3.758 2.73l-.064.119a2.65 2.65 0 0 1-3.612 1.08 5.158 5.158 0 0 0-4.845-.057l-.153.08a2.849 2.849 0 0 1-3.824-1.195 5.374 5.374 0 0 0-3.815-2.764c-1.553-.272-2.617-1.73-2.398-3.275a5.41 5.41 0 0 0-1.47-4.522 2.907 2.907 0 0 1 0-4.044 5.411 5.411 0 0 0 1.47-4.521c-.22-1.554.833-3 2.378-3.272a5.416 5.416 0 0 0 3.85-2.795 2.91 2.91 0 0 1 3.848-1.25 5.42 5.42 0 0 0 4.757 0 2.91 2.91 0 0 1 3.849 1.25 5.417 5.417 0 0 0 3.849 2.795 2.908 2.908 0 0 1 2.378 3.272 5.411 5.411 0 0 0 1.47 4.521 2.907 2.907 0 0 1 0 4.044 5.411 5.411 0 0 0-1.47 4.522c.22 1.553-.832 3-2.378 3.271ZM12.663 2.21A4.165 4.165 0 0 1 18.167.423a4.166 4.166 0 0 0 3.657 0 4.165 4.165 0 0 1 5.506 1.788 4.163 4.163 0 0 0 2.958 2.148 4.16 4.16 0 0 1 3.403 4.681 4.159 4.159 0 0 0 1.13 3.476 4.159 4.159 0 0 1 0 5.785 4.158 4.158 0 0 0-1.13 3.476 4.161 4.161 0 0 1-2.62 4.464l.554.908.619 1.004a.626.626 0 1 1-1.068.656l-.56-.91h-.001l-.058-.095-.667-1.084a3.804 3.804 0 0 0-1.264.684l-.12.1a4.324 4.324 0 0 0-.726.757l-.35.471c-.041.054-.078.112-.11.172a3.816 3.816 0 0 1-4.276 1.924l4.723 7.769c.116.19.387.202.52.024l1.602-2.158a2.82 2.82 0 0 1 1.954-1.121l2.622-.29a.313.313 0 0 0 .233-.475l-1.387-2.27h.002l-.728-1.19a.626.626 0 1 1 1.07-.653l1.723 2.818c.01.016.02.033.028.05l.362.592a1.566 1.566 0 0 1-1.165 2.373l-2.622.29a1.567 1.567 0 0 0-1.085.623l-1.603 2.157c-.663.893-2.02.83-2.597-.12l-5.058-8.319-.63-1.038a3.906 3.906 0 0 0-1.94.031l-.612 1.007-5.057 8.32a1.567 1.567 0 0 1-2.597.12L9.2 37.21a1.567 1.567 0 0 0-1.086-.623l-2.621-.29a1.566 1.566 0 0 1-1.165-2.373l4.68-7.655c-1.815-.663-2.986-2.52-2.707-4.492a4.159 4.159 0 0 0-1.13-3.476 4.159 4.159 0 0 1 0-5.785 4.159 4.159 0 0 0 1.13-3.476 4.16 4.16 0 0 1 3.403-4.68 4.163 4.163 0 0 0 2.958-2.149Zm7.649 7.676 1.08 2.046a2.82 2.82 0 0 0 2.013 1.462l2.281.395a.313.313 0 0 1 .171.526l-1.613 1.66c-.61.626-.893 1.5-.769 2.365l.33 2.29a.313.313 0 0 1-.449.325l-2.077-1.02a2.822 2.822 0 0 0-2.489 0l-2.077 1.02a.313.313 0 0 1-.449-.326l.33-2.29a2.817 2.817 0 0 0-.77-2.365l-1.612-1.659a.313.313 0 0 1 .17-.527l2.282-.394a2.82 2.82 0 0 0 2.013-1.462l1.08-2.046a.313.313 0 0 1 .555 0Zm-1.663-.584c.588-1.114 2.183-1.114 2.771 0l1.08 2.046c.227.43.64.73 1.119.812l2.28.394c1.242.215 1.735 1.732.857 2.634l-1.613 1.66a1.565 1.565 0 0 0-.427 1.313l.33 2.29c.178 1.246-1.113 2.183-2.243 1.628l-2.077-1.02a1.568 1.568 0 0 0-1.383 0l-2.077 1.02c-1.13.555-2.421-.382-2.242-1.628l.33-2.29c.068-.48-.09-.966-.428-1.314l-1.613-1.659c-.878-.902-.385-2.42.856-2.634l2.281-.394a1.566 1.566 0 0 0 1.119-.812l1.08-2.046Zm5.2-3.371A10.19 10.19 0 0 0 10.85 10.97a10.171 10.171 0 0 0-.523 7.475.626.626 0 1 1-1.194.379c-.88-2.771-.67-5.773.587-8.395a11.444 11.444 0 0 1 20.697.144 11.423 11.423 0 0 1-4.943 14.85 11.444 11.444 0 0 1-15.139-3.998.626.626 0 1 1 1.063-.664 10.183 10.183 0 0 0 13.48 3.56A10.171 10.171 0 0 0 23.85 5.931ZM12.775 28.904a3.816 3.816 0 0 0 4.276 1.924l-4.722 7.769a.313.313 0 0 1-.52.024l-1.602-2.158a2.82 2.82 0 0 0-1.955-1.121l-2.621-.29a.313.313 0 0 1-.233-.475l4.804-7.858c.46.145.89.377 1.268.685l.12.1c.272.222.515.476.725.757l.351.471c.041.054.077.112.109.172Z"></path>
+      </symbol>
+      <symbol id="check-mark" viewBox="0 0 40 40">
+        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M31.931 5.944a18.438 18.438 0 1 0-1.224 29.066.781.781 0 1 1 .907 1.272 20 20 0 1 1 4.648-4.64.781.781 0 0 1-1.27-.91 18.438 18.438 0 0 0-3.06-24.788Zm2.444 27.65a.781.781 0 1 1-1.563 0 .781.781 0 0 1 1.563 0ZM10 20.57l3.319-3.33 3.453 3.487a.86.86 0 0 0 1.22.002l8.687-8.723 3.344 3.37-12.609 12.609L10 20.57Zm3.93-4.932a.86.86 0 0 0-1.219-.002l-4.314 4.328a.86.86 0 0 0 .001 1.215l8.408 8.408a.86.86 0 0 0 1.216 0l13.6-13.601a.86.86 0 0 0 .003-1.213l-4.335-4.37a.86.86 0 0 0-1.22-.001l-8.686 8.723-3.453-3.487Z"></path>
+      </symbol>
+      <symbol id="rating" viewBox="0 0 40 40">
+        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20.72 27.897a.547.547 0 0 0-.972 0L18.22 30.87l-3.299.534a.547.547 0 0 0-.3.925l2.355 2.371-.512 3.302c-.068.44.39.773.787.572l2.982-1.507 2.983 1.507c.397.2.855-.132.787-.572l-.512-3.302 2.355-2.37a.547.547 0 0 0-.3-.926l-3.3-.534-1.526-2.972Zm-4.572 4.416 2.793-.452 1.293-2.517 1.293 2.517 2.794.452-1.994 2.008.433 2.796-2.526-1.276-2.525 1.276.433-2.796-1.994-2.008Zm-9.564-8.869a.547.547 0 0 1 .973 0l1.527 2.972 3.298.534c.44.071.615.61.301.925l-2.355 2.371.512 3.302a.547.547 0 0 1-.787.572L7.07 32.613 4.088 34.12a.547.547 0 0 1-.787-.572l.512-3.302-2.355-2.37a.547.547 0 0 1 .3-.926l3.299-.534 1.527-2.972Zm-.807 3.964-2.793.452 1.994 2.007-.433 2.797 2.525-1.277 2.526 1.277-.433-2.797 1.994-2.007-2.794-.452L7.07 24.89l-1.293 2.517Zm28.069-3.964a.547.547 0 0 0-.973 0l-1.527 2.972-3.299.534a.547.547 0 0 0-.3.925l2.355 2.371-.512 3.302c-.068.44.39.773.787.572l2.982-1.507 2.983 1.507c.397.2.855-.132.787-.572l-.512-3.302 2.355-2.37a.547.547 0 0 0-.3-.926l-3.3-.534-1.526-2.972Zm-4.573 4.416 2.793-.452 1.293-2.517 1.294 2.517 2.793.452-1.994 2.007.433 2.797-2.526-1.277-2.525 1.277.433-2.797-1.994-2.007ZM6.73 3.25h1.54a2.266 2.266 0 0 1 2.266 2.273l-.009 2.693A2.266 2.266 0 0 1 9.874 9.8l-.797.807c-.26.264-.405.619-.405.988v1.811c0 .302.245.547.547.547h2.344a2.11 2.11 0 0 1 2.087 1.804 3.672 3.672 0 0 0-2.01 3.274v4.532c0 .302.245.546.547.546h15.626a.547.547 0 0 0 .546-.547v-4.53c0-1.43-.817-2.669-2.009-3.275a2.11 2.11 0 0 1 2.087-1.804h2.344a.547.547 0 0 0 .547-.547v-1.81c0-.37-.145-.725-.405-.989l-.797-.807a2.266 2.266 0 0 1-.653-1.584l-.009-2.693A2.266 2.266 0 0 1 31.73 3.25h1.54a2.266 2.266 0 0 1 2.266 2.273l-.009 2.693a2.266 2.266 0 0 1-.653 1.584l-.797.807c-.26.264-.405.619-.405.988v1.811c0 .302.245.547.547.547h2.422a2.11 2.11 0 0 1 2.109 2.11v3.28h-8.672a.547.547 0 0 0-.547.548v.156c0 .302.245.547.547.547h9.375a.547.547 0 0 0 .547-.547v-3.985a3.36 3.36 0 0 0-3.36-3.359h-1.718v-1.108c0-.04.016-.08.045-.11l.797-.806a3.516 3.516 0 0 0 1.013-2.459l.009-2.693A3.516 3.516 0 0 0 33.27 2h-1.54a3.516 3.516 0 0 0-3.516 3.527l.009 2.693c.003.92.367 1.803 1.013 2.458l.797.808c.029.029.045.068.045.11v1.107h-1.64a3.36 3.36 0 0 0-3.292 2.685 3.71 3.71 0 0 0-.459-.029h-2v-1.377c0-.04.015-.08.044-.11l1-1.015a3.516 3.516 0 0 0 1.012-2.456l.01-3.233a3.828 3.828 0 0 0-3.828-3.84h-.066a.547.547 0 0 0-.547.547v.156c0 .302.245.547.547.547h.066a2.578 2.578 0 0 1 2.578 2.586l-.01 3.233a2.266 2.266 0 0 1-.651 1.583l-1.001 1.015c-.26.264-.405.618-.405.987v2.08c0 .302.245.547.547.547h2.704a2.422 2.422 0 0 1 2.422 2.422v3.828H12.891v-3.828a2.422 2.422 0 0 1 2.421-2.422h2.705a.547.547 0 0 0 .547-.547v-2.08c0-.369-.145-.723-.405-.986l-1-1.016a2.266 2.266 0 0 1-.652-1.583l-.01-3.233a2.578 2.578 0 0 1 2.578-2.586h.066a.547.547 0 0 0 .547-.547v-.156a.547.547 0 0 0-.547-.547h-.066a3.828 3.828 0 0 0-3.828 3.84l.01 3.233c.003.92.366 1.8 1.011 2.456l1.001 1.016c.029.029.045.068.045.11v1.376h-2.002c-.155 0-.308.01-.458.029a3.36 3.36 0 0 0-3.291-2.685H9.921v-1.108c0-.04.016-.08.045-.11l.797-.806a3.516 3.516 0 0 0 1.013-2.459l.009-2.693A3.516 3.516 0 0 0 8.27 2H6.73a3.516 3.516 0 0 0-3.516 3.527l.009 2.693c.003.92.367 1.803 1.013 2.458l.797.808c.029.029.045.068.045.11v1.107H3.36A3.36 3.36 0 0 0 0 16.063v3.984c0 .302.245.547.547.547H10a.547.547 0 0 0 .547-.547v-.156a.547.547 0 0 0-.547-.547H1.25v-3.282a2.11 2.11 0 0 1 2.11-2.109H5.78a.547.547 0 0 0 .547-.547v-1.81c0-.37-.146-.725-.405-.989L5.126 9.8a2.266 2.266 0 0 1-.653-1.584l-.009-2.693A2.266 2.266 0 0 1 6.73 3.25Z"></path>
+      </symbol>
+
+      <!-- contact info icons -->
+      <symbol id="location" viewBox="0 0 24 24">
+        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M19.768 5.947c-2.227-7.93-13.394-7.93-15.62 0a8.209 8.209 0 0 0 1.59 7.468l5.501 6.608a.934.934 0 0 0 1.438 0l5.501-6.607a8.209 8.209 0 0 0 1.59-7.47Zm-7.81 13.029 5.286-6.348a6.976 6.976 0 0 0 1.351-6.348C16.703-.458 7.213-.458 5.321 6.28a6.976 6.976 0 0 0 1.35 6.347l5.287 6.349Zm-7.75-1.912c-.462 0-.888.254-1.11.662l-1.72 3.161c-.462.85.148 1.886 1.11 1.886h19.024c.963 0 1.573-1.04 1.108-1.889l-1.73-3.16a1.265 1.265 0 0 0-1.109-.66h-.841a.612.612 0 0 1-.61-.613c0-.34.273-.614.61-.614h.841c.905 0 1.74.496 2.176 1.294l1.731 3.161C24.6 21.96 23.403 24 21.512 24H2.488C.6 24-.598 21.965.308 20.298l1.721-3.161a2.482 2.482 0 0 1 2.18-1.3H5c.337 0 .61.275.61.614a.612.612 0 0 1-.61.613h-.792Zm4.538-8.941c0-1.812 1.46-3.28 3.259-3.28 1.784 0 3.34 1.448 3.258 3.634a.612.612 0 0 0 .587.636.611.611 0 0 0 .632-.59c.106-2.869-1.99-4.907-4.477-4.907-2.473 0-4.477 2.018-4.477 4.507 0 2.483 1.913 4.666 4.885 4.505a.612.612 0 0 0 .575-.646.61.61 0 0 0-.641-.58c-2.239.122-3.6-1.464-3.6-3.28Z"></path>
+      </symbol>
+      <symbol id="phone" viewBox="0 0 24 24">
+        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M10 3.715a3.422 3.422 0 0 1-.624 3.866L8 9.001c-.54.557-.529 1.448.025 1.992l4.98 4.894a1.406 1.406 0 0 0 2.022-.05l1.098-1.194a3.494 3.494 0 0 1 4.264-.691l1.609.89c2.264 1.254 2.691 4.338.852 6.162a10.312 10.312 0 0 1-12.003 1.843l-1.312-.678a18.527 18.527 0 0 1-8.139-8.335l-.235-.48a11.47 11.47 0 0 1 .825-11.48c1.855-2.727 5.957-2.422 7.39.55l.623 1.29ZM8.5 6.729 7.125 8.148a2.64 2.64 0 0 0 .045 3.72l4.981 4.893a2.625 2.625 0 0 0 3.773-.095l1.098-1.193a2.275 2.275 0 0 1 2.776-.45l1.61.891a2.664 2.664 0 0 1 .584 4.22 9.094 9.094 0 0 1-10.585 1.626l-1.313-.679a17.304 17.304 0 0 1-7.601-7.785l-.235-.48a10.244 10.244 0 0 1 .736-10.253C4.32.614 7.252.833 8.277 2.956L8.9 4.248c.4.829.24 1.82-.4 2.48Zm4.13-5.082c5.195 0 9.719 4.167 9.719 9.744h1.22C23.57 5.107 18.468.424 12.63.424v1.224Zm6.432 9.274c0-3.421-2.774-5.978-5.963-5.978V3.719c3.832 0 7.184 3.074 7.184 7.202h-1.221Zm-5.259-2.919c1.183 0 2.207.948 2.207 2.212h1.22a3.427 3.427 0 0 0-3.427-3.436v1.224Z"></path>
+      </symbol>
+      <symbol id="envelope" viewBox="0 0 24 24">
+        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M2.103 4a2.102 2.102 0 0 0-1.177.358l-.025.017A2.087 2.087 0 0 0 0 6.092v11.816C0 19.063.942 20 2.103 20h19.794A2.098 2.098 0 0 0 24 17.908V6.092A2.099 2.099 0 0 0 21.897 4H2.103Zm9.305 9.804L2.791 5.23h18.46l-8.618 8.573a.869.869 0 0 1-1.225 0ZM1.238 6.092c0-.188.06-.362.163-.504l.035.035 6.175 6.143-6.34 6.382a.859.859 0 0 1-.034-.24V6.092Zm21.367-.469.011-.01a.854.854 0 0 1 .147.48v11.815a.861.861 0 0 1-.035.244l-6.358-6.325 6.235-6.204ZM2.393 18.77l6.092-6.133 2.049 2.038a2.11 2.11 0 0 0 2.974 0l1.987-1.977 6.103 6.072H2.393Z"></path>
+      </symbol>
+
+      <!-- error page icon -->
+      <symbol id="error" viewBox="0 0 224 200">
+        <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M130.671 10.795c-8.298-14.393-29.044-14.393-37.342 0L2.92 167.614C-5.378 182.008 4.995 200 21.59 200h180.817c16.597 0 26.97-17.992 18.671-32.386L130.671 10.795Zm-30.018 59.66c0-5.649 4.572-10.228 10.212-10.228h2.27c5.64 0 10.212 4.58 10.212 10.227l-3.404 55.682c0 6.25-3.946 11.364-7.943 11.364-3.997 0-7.943-5.114-7.943-11.364l-3.404-55.681Zm22.694 89.772c0 6.276-5.08 11.364-11.347 11.364-6.267 0-11.347-5.088-11.347-11.364 0-6.276 5.08-11.363 11.347-11.363 6.267 0 11.347 5.087 11.347 11.363Z"></path>
+      </symbol>
+    </svg>
+  </div>
+
+  <!-- js plugins file -->
+  <script src="scripts/plugins.min.js"></script>
+
+  <!-- main script file -->
+  <script src="scripts/bundle.min.js"></script>
+
+</body>
+</html>
